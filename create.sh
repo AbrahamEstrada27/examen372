@@ -122,4 +122,6 @@ function explode() {
     }, 250);
 }' >> app.js
 cd ..
+cmd //c tree //F ./
+
 start index.html
