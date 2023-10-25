@@ -20,3 +20,15 @@ do
 done
 
 cmd //c tree //F ./
+
+mv style.css css/
+for ((i=1; i<=$numFiles; i++)); do
+mv file$i.txt docs/text/
+done
+mv main.py docs/python
+mv app.js js/
+mv meme.jpg img/
+cmd //c tree //F ./
+
+# mv examen372.md README.md
+
