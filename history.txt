@@ -1,0 +1,86 @@
+    1  mkdir examen372
+    2  cd examen372
+    3  touch create.sh
+    4  git init
+    5  git status
+    6  git add .
+    7  git commit -m "Initial commit, script added"
+    8  rm -rf webapp
+    9  ls
+   10  mkdir -p webapp/css webapp/js webapp/docs/text webapp/docs/python webapp/img
+   11  ls
+   12  cd webapp/
+   13  ls
+   14  cd docs
+   15  ls
+   16  cd ..
+   17  cd ..
+   18  ls
+   19  ./create.sh 
+   20  ./create.sh 
+   21  bin/bash/create.sh
+   22  bin/bash/create.sh
+   23  ./bin/bash/create.sh
+   24  ls
+   25  ./create.sh
+   26  ./create.sh
+   27  ./create.sh 
+   28  chmod +x create.sh
+   29  ./create.sh 
+   30  ls
+   31  create.sh
+   32  ls
+   33  ./create.sh 
+   34  ./create.sh 
+   35      curl -o meme.jpg "https://pm1.aminoapps.com/7021/417429318f6b29b6bc737fb95ba1ddafc9ba2decr1-720-642v2_hq.jpg"
+   36  ./create.sh 
+   37  ./create.sh 
+   38  ./create.sh 
+   39  git status
+   40  git commit -m "Second commit, structure created"
+   41  git add .
+   42  git commit -m "Second commit, structure created"
+   43  git status
+   44  mv style.css css/
+   45  ls
+   46  cd webapp/
+   47  mv style.css css/
+   48  for ((i=1; i<=$numFiles; i++)); do mv file$1.txt txt/; done
+   49  for ((i=1; i<=$numFiles; i++)); do mv file$i.txt txt/; done
+   50  $numFiles=8;
+   51  for ((i=1; i<=$numFiles; i++)); do mv file$i.txt txt/; done
+   52  numFiles=8;
+   53  for ((i=1; i<=$numFiles; i++)); do mv file$i.txt txt/; done
+   54  numFiles=8;
+   55  for ((i=1; i<=$numFiles; i++)); do mv file$i.txt docs/txt/; done
+   56  numFiles=8;
+   57  for ((i=1; i<=$numFiles; i++)); do mv file$i.txt docs/text/; done
+   58  mv main.py docs/python
+   59  mv app.js js/
+   60  cmd //c tree //F ./
+   61  mv meme.jpg img/
+   62  cmd //c tree //F ./
+   63  cd ..
+   64  ls
+   65  l
+   66  ls
+   67  cd
+   68  cd ..
+   69  cd ..
+   70  cd examen/
+   71  ls
+   72  mv examen372.md examen372
+   73  ls
+   74  cd examen372/
+   75  ls
+   76  mv examen372.md README.md
+   77  '
+
+
+
+   78  git status
+   79  git add .
+   80  git status
+   81  git commit -m "Third commit, add README.md and final script updated"
+   82  git status
+   83  history > history.txt
